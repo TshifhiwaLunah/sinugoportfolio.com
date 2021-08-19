@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(110deg, #3b65b3 50%, #165cdf98 50%);
+}
+
+.navbar-nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding: 14px 16px;
+}
+
+.navbar-nav a:hover {
+    background-color: rgba(16, 160, 40, 0.692);
+    color: black;
+}
+
+.midd {
+    max-width: 800px;
+    margin: auto;
+    padding: 50px;
+    margin-top: 4rem;
+    text-align: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1 {
+    color: floralwhite;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 8px;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    color: floralwhite;
+    font-weight: 400;
+}
+
+.navbar-nav a.active {
+    background-color: #12833ec7;
+    color: white;
+    border-radius: 7px;
+}
+
+.respo {
+    margin: left;
+    height: 200px;
+    width: 250px;
+    border-radius: 10%;
+}
+
+.Qries {
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+h10 {
+    padding: 20px 30px;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: left;
+}
+
+p {
+    font-size: 1.1rem;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 12px;
+    background: rgba(84, 113, 209, 0.911);
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #f6f6f6;
+    border-radius: 4%;
+    transition: background 0.5s;
+}
+
+.btn:hover {
+    background: #0eb90e;
+}
+
+.border {
+    background-color: rgb(110, 172, 166);
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-right: 5px;
+    margin-left: 15px;
+    color: whitesmoke;
+}
+
+@media screen and (max-width: 589px) and (min-width: 350px) {
+    .border {
+        background-color: rgb(110, 172, 166);
+        padding-left: 8px;
+        padding-right: 8px;
+        margin-right: 10px;
+        margin-left: 15px;
+        color: whitesmoke;
+    }
+    h10 {
+        text-align: left;
+        margin-left: 5px;
+        padding-left: 5px;
+    }
+}

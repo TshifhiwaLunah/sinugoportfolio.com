@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+body {
+  background: linear-gradient(110deg, #3b65b3 50%, #165cdf98 50%);
+opacity: 0.9;
+
+}
+
+
+.navbar-nav a{
+  text-decoration: none;
+color: white;
+font-size: 15px;
+padding-right: 10px;
+padding-left: 10px;
+padding: 14px 16px;
+}
+
+.navbar-nav a:hover {
+background-color: rgba(16, 160, 40, 0.692);
+color: black;
+}
+
+.navbar-nav a.active {
+  background-color: #12833ec7;
+  color: white;
+  border-radius: 7px;
+  
+  }
+
+.address-icon i{
+  font-size: 36px;
+  line-height: 32px;
+}
+.icons i{
+  color: #fff;
+  padding: 8px 0px;
+  text-align: center;
+  height: 30px;
+  width: 30px;
+  margin-right: 5px;
+}
+.fa-facebook{
+  background-color: #3A5A99; 
+}
+.fa-twitter{
+  background-color: #39CBFA;
+}
+.fa-linkedin{
+  background-color: #3D99C0;
+}
+.fa-whatsapp{
+  background-color: rgb(18, 143, 45);
+}
+
+.headerr {
+  color: whitesmoke;
+  font-weight: 700;
+  font-size: 1.5rem;
+  background: -webkit-linear-gradient(right,rgba(156, 160, 156, 0.767),rgba(156, 187, 142, 0.795),rgb(255, 255, 255),rgb(131, 170, 115));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+navbar-nav a.active {
+  background-color: #12833ec7;
+  color: white;
+  border-radius: 7px;
+  
+  }
+
+  .Qries {
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+
+
+
+
+
+
