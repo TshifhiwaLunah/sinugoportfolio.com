@@ -5,4 +5,4 @@
 # JAVASCRIPT
 
 
-Visit the live website at https://expolearn.github.io/sinugo-portfolio.github.oi/
+Visit the live website at https://sinugo-portfolio.github.oi/
